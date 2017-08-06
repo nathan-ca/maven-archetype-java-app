@@ -33,7 +33,8 @@ The archetype was installed in your local maven repository.
 # mvn package
 ```
 </dd>
-a new maven project *sample* was generated in the work directory and the '*mvn package*' command packaged compiled binary and resources into a *sample.zip* file under *target* dir.
+
+a new maven project *sample* was generated in the work directory and the *'mvn package'* command packaged compiled binary and resources into a *sample.zip* file under *target* dir.
 
 This *sample.zip* file could be distributed easily. End user just unzip the *sample.zip* and run the script to launch the java application.
 </dl>
@@ -51,7 +52,7 @@ This *sample.zip* file could be distributed easily. End user just unzip the *sam
 Customize and update the following files in your new project:
 ```
 release.txt: write your own release note
-src\bin\run-app*: write your own Java launch command
+src\bin\run-app.*: write your own Java launch command
 src\main\resources\log4j2.xml: customize the log4j2 behavior
 ```
 
