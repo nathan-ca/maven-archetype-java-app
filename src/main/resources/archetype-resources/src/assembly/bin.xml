@@ -20,7 +20,7 @@
 			<outputDirectory />
 			<includes>
 				<include>run-app.sh</include>
-				<include>run-app.bat</include>
+				<include>run-app.cmd</include>
 			</includes>
 		</fileSet>
 		<fileSet>
