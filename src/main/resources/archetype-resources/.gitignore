@@ -5,6 +5,7 @@
 
 # IntelliJ IDE
 .idea
+*.iml
 
 # maven target
 target

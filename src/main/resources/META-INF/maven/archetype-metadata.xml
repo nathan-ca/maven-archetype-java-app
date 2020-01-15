@@ -15,18 +15,33 @@
 		</fileSet>
 		<fileSet filtered="true">
 			<directory>src/assembly</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
 		</fileSet>
 		<fileSet>
 			<directory>src/bin</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="true">
 			<directory>src/main/java</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="true">
 			<directory>src/test/java</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
 		</fileSet>
 	</fileSets>
 </archetype-descriptor>

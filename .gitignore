@@ -3,6 +3,10 @@
 .classpath
 .project
 
+# Intellij IDE
+.idea
+*.iml
+
 # Maven
 target
 
