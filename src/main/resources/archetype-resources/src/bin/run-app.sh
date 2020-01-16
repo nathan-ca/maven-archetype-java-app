@@ -4,4 +4,5 @@
 
 java -version
 
-java -cp sample.jar:lib/* com.github.App
+# The following is sample command
+# java -cp ${project.artifactId}.jar:lib/* com.github.App
