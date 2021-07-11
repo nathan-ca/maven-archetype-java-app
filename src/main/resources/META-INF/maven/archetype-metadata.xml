@@ -13,6 +13,12 @@
 				<include>.gitignore</include>
 			</includes>
 		</fileSet>
+		<fileSet>
+			<directory>config</directory>
+			<includes>
+				<include>sun_check.xml</include>
+			</includes>
+		</fileSet>
 		<fileSet filtered="true">
 			<directory>src/assembly</directory>
 			<includes>
